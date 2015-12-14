@@ -1,0 +1,70 @@
+﻿<Page
+    x:Class="cfApp.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:cfApp.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:UI="using:Microsoft.Advertising.Mobile.UI"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+
+    </Page.Resources>
+    <Grid Height="640" Margin="0,0.333,0,-0.333" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Height="40" Fill="Red" Grid.Row="0" Margin="0,-30,0,30"/>
+        <Rectangle Fill="Black" Margin="0,0,0,10" Grid.RowSpan="2"/>
+        <Button x:Name="button" Content="Display Stores" HorizontalAlignment="Left" Margin="21,179,0,0" Grid.Row="1" VerticalAlignment="Top" Style="{StaticResource MyButtonStyle}" Click="button_Click" Width="369"/>
+        <CheckBox x:Name="isOpen" Content="Is Open" HorizontalAlignment="Left" Margin="270,126,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <CheckBox x:Name="hasWifi" Content="Has WIFI" HorizontalAlignment="Left" Margin="270,70,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+
+        <ComboBox
+            x:Name="eircode"
+            HorizontalAlignment="Left"
+            Margin="12,74,0,0"
+            VerticalAlignment="Top"
+            Width="135" Grid.Row="1" Height="100" RenderTransformOrigin="0.532,1.549">
+            <ComboBoxItem Content="D01" IsSelected="True"/>
+            <ComboBoxItem Content="D02"/>
+            <ComboBoxItem Content="D03"/>
+            <ComboBoxItem Content="D04"/>
+            <ComboBoxItem Content="D05"/>
+            <ComboBoxItem Content="D06"/>
+            <ComboBoxItem Content="D07"/>
+            <ComboBoxItem Content="D08"/>
+            <ComboBoxItem Content="D09"/>
+            <ComboBoxItem Content="T12"/>
+            <ComboBoxItem Content="V94"/>
+        </ComboBox>
+        <ListView x:Name="listView" Grid.Row="1"  Margin="0,271,0,10">
+            <ListView.Resources>
+                <DataTemplate x:Key="ourStores">
+                    <Grid>
+                        <TextBlock x:Name ="storeName" Text="{Binding StoreName}"/>
+                        <TextBlock x:Name="rating" Text="{Binding City}"/>
+                        <TextBlock x:Name="location" Text="{Binding Location}"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.Resources>
+            <ListView.DataContext>
+                <local:CoffeeStore/>
+            </ListView.DataContext>
+            <ListView.ItemTemplate>
+                <StaticResource ResourceKey="ourStores"/>
+            </ListView.ItemTemplate>
+
+
+        </ListView>
+        <Button x:Name="backToMain" Content="Go Back" HorizontalAlignment="Right" Margin="0,8,10,574" VerticalAlignment="Stretch" Style="{StaticResource MyButtonStyle}" Click="backToMain_Click" Grid.RowSpan="2"/>
+        <Button x:Name="makeReview" Content="write a review" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.574,0.112" Style="{StaticResource MyButtonStyle}" Click="makeReview_Click" Grid.RowSpan="2"/>
+
+
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="cfApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:cfApp.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:UI="using:Microsoft.Advertising.Mobile.UI"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+
+    </Page.Resources>
+    <Grid Height="657" Margin="0,-16.667,0,-0.333" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Height="40" Fill="Red" Grid.Row="0"/>
+        <Rectangle Fill="Black" Margin="0,90,0,10" Grid.RowSpan="2"/>
+        <Button x:ConnectionId='1' x:Name="button" Content="Display Stores" HorizontalAlignment="Left" Margin="20,218,0,0" Grid.Row="1" VerticalAlignment="Top" Style="{StaticResource MyButtonStyle}"                      Width="370"/>
+        <CheckBox x:Name="isOpen" Content="Is Open" HorizontalAlignment="Left" Margin="270,126,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <CheckBox x:Name="hasWifi" Content="Has WIFI" HorizontalAlignment="Left" Margin="270,70,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <RadioButton x:Name="city1" Content="Limerick" HorizontalAlignment="Left" Margin="20,110,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <RadioButton x:Name="city2" Content="Dublin" HorizontalAlignment="Left" Margin="20,70,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <RadioButton x:Name="city3" Content="Cork" HorizontalAlignment="Left" Margin="20,150,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <ComboBox
+            x:Name="sortBy"
+            HorizontalAlignment="Left"
+            Margin="129,74,0,0"
+            VerticalAlignment="Top"
+            Width="135" Grid.Row="1" Height="108" RenderTransformOrigin="0.532,1.549">
+            <ComboBoxItem Content="Highest Rating" IsSelected="True"/>
+            <ComboBoxItem Content="Lowest Rating"/>
+
+        </ComboBox>
+        <ListView x:Name="listView" Grid.Row="1"  Margin="0,271,0,10">
+            <ListView.Resources>
+                <DataTemplate x:Key="ourStores">
+                    <Grid>
+                        <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="10,0,0,0">
+                            <TextBlock x:Name ="storeName" Text="{Binding StoreName}" FontSize="24"/>
+                        <TextBlock x:Name="rating" Text="{Binding City}" FontSize="16"/>
+                        <TextBlock x:Name="location" Text="{Binding Location}" FontSize="16"/>
+                            </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListView.Resources>
+            <ListView.DataContext>
+                <local:CoffeeStore/>
+            </ListView.DataContext>
+            <ListView.ItemTemplate>
+                <StaticResource ResourceKey="ourStores"/>
+            </ListView.ItemTemplate>
+
+
+        </ListView>
+        <Button x:ConnectionId='2' x:Name="eircodeSearch" Content="Search by Eircode" HorizontalAlignment="Right" Margin="0,1,10,561.667" VerticalAlignment="Stretch" RenderTransformOrigin="0.374,-1.201"  Style="{StaticResource MyButtonStyle}"                             Grid.Row="1"/>
+        <Button x:ConnectionId='3' x:Name="makeReview" Content="write a review" HorizontalAlignment="Left" Margin="10,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.574,0.112" Style="{StaticResource MyButtonStyle}"                          Grid.Row="1"/>
+
+
+    </Grid>
+</Page>
+

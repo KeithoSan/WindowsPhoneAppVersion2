@@ -1,0 +1,152 @@
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\cfApp.csprojResolveAssemblyReference.cache
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\App.g.i.cs
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\App.g.cs
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\MainPage.g.i.cs
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\MainPage.g.cs
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\XamlTypeInfo.g.cs
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\XamlSaveStateFile.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\cfApp.exe.config
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\App.xbf
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\MainPage.xbf
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\cfApp.xr.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\cfApp.exe
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\cfApp.pdb
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\resources.pri
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\AppxManifest.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\cfApp.build.appxrecipe
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.Common.winmd
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.Common.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.Display.winmd
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.Display.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.UI.winmd
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\Newtonsoft.Json.dll
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\System.Net.Http.Extensions.dll
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\System.Net.Http.Primitives.dll
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\Newtonsoft.Json.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\System.Net.Http.Extensions.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\bin\Debug\System.Net.Http.Primitives.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\App.xaml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\MainPage.xaml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\App.xbf
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\MainPage.xbf
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\cfApp.exe
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\cfApp.pdb
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\cfApp.csproj.GenerateResource.Cache
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting.pri
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\qualifiers.txt
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\priconfig.xml
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\priconfig.xml.intermediate
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\layout.resfiles
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\layout.resfiles.intermediate
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\resources.resfiles
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\resources.resfiles.intermediate
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\pri.resfiles
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\pri.resfiles.intermediate
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\qualifiers.txt
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\qualifiers.txt.intermediate
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\martin\documents\visual studio 2015\Projects\cfApp\cfApp\obj\Debug\ProjectArchitectures.txt
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\Page2.g.i.cs
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\Page2.g.cs
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\Page2.xaml
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\Page2.xbf
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\bin\Debug\Page2.xbf
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\makeReviewPage.g.i.cs
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\makeReviewPage.g.cs
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\makeReviewPage.xaml
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\makeReviewPage.xbf
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\bin\Debug\makeReviewPage.xbf
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\bin\Debug\JRatingControl.dll
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\bin\Debug\JRatingControl.pri
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\JRatingControl.pri.xml
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\bin\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\bin\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\layout.resfiles
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\layout.resfiles.intermediate
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\Resources.resfiles
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\Resources.resfiles.intermediate
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\pri.resfiles
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\pri.resfiles.intermediate
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\priconfig.xml
+C:\Users\Martin\Documents\Visual Studio 2015\Projects\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\priconfig.xml.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\cfApp.exe.config
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\App.xbf
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\MainPage.xbf
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\makeReviewPage.xbf
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Page2.xbf
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\cfApp.xr.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\cfApp.exe
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\cfApp.pdb
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\resources.pri
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\AppxManifest.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\cfApp.build.appxrecipe
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.Common.winmd
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.Common.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.Display.winmd
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.Display.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.UI.winmd
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Microsoft.Advertising.Mobile.UI.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\JRatingControl.dll
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\JRatingControl.pri
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\cfApp.csprojResolveAssemblyReference.cache
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\App.g.i.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\App.g.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\MainPage.g.i.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\MainPage.g.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\makeReviewPage.g.i.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\makeReviewPage.g.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\Page2.g.i.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\Page2.g.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\App.xaml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\MainPage.xaml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\makeReviewPage.xaml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\Page2.xaml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\App.xbf
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\MainPage.xbf
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\makeReviewPage.xbf
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\Page2.xbf
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\XamlSaveStateFile.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\cfApp.exe
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\cfApp.pdb
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\cfApp.csproj.GenerateResource.Cache
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\layout.resfiles
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\layout.resfiles.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\Resources.resfiles
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\Resources.resfiles.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\pri.resfiles
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\pri.resfiles.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\priconfig.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\priconfig.xml.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting.pri
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\System.Net.Http.Formatting\qualifiers.txt
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\priconfig.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\priconfig.xml.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\layout.resfiles
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\layout.resfiles.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\resources.resfiles
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\resources.resfiles.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\pri.resfiles
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\pri.resfiles.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\qualifiers.txt
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\qualifiers.txt.intermediate
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\JRatingControl.pri.xml
+C:\Users\User\OneDrive\EAD\cfApp\cfApp\obj\Debug\ProjectArchitectures.txt

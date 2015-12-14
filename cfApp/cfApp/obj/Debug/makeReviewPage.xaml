@@ -1,0 +1,101 @@
+﻿<Page 
+    xmlns:local="using:cfApp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    xmlns:RatingControl="using:JISoft.RatingControl"  
+    
+    
+    xmlns:Models="using:cfApp.Models"
+    x:Class="cfApp.makeReviewPage"
+    mc:Ignorable="d"  
+    
+    
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="M_KCoffee" HorizontalAlignment="Left" Height="137" VerticalAlignment="Top" Width="173" Source="M&amp;K_Coffee_Locator_small.png" Margin="132,10,0,0"/>
+        <TextBlock x:Name="Welcome" HorizontalAlignment="Left" Margin="29,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15" Width="328" Foreground="#FFFF0303" IsHoldingEnabled="False">
+			<Run Text="W"/>
+			<Run Text="elcome to M &amp; "/>
+			<Run Text="K Coffee Locator"/>
+        </TextBlock>
+        <TextBlock x:Name="custName" HorizontalAlignment="Left" Margin="29,40,0,0" TextWrapping="Wrap" Text="Please enter your name." VerticalAlignment="Top" Height="54" Width="314" FontSize="21" />
+        <TextBox x:Name="custText" HorizontalAlignment="Left" Height="39" Margin="29,65,0,0" VerticalAlignment="Top" Width="314"/>
+        <TextBlock x:Name="custEmail" HorizontalAlignment="Left" Margin="29,110,0,0" TextWrapping="Wrap" Text="Please enter your email address." VerticalAlignment="Top" Height="54" Width="314" FontSize="21" />
+        <TextBox x:Name="emailText" HorizontalAlignment="Left" Height="39" Margin="29,135,0,0" VerticalAlignment="Top" InputScope="EmailSmtpAddress"  Width="314"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="29,182,0,0" TextWrapping="Wrap" Text="Please select the area code." VerticalAlignment="Top" Height="54" Width="314" FontSize="21" />
+        <ComboBox x:ConnectionId='1'
+			x:Name="Eircode"
+			HorizontalAlignment="Left"
+			Height="38" Margin="29,201,0,0" 
+			VerticalAlignment="Top"
+			Width="314"  RenderTransformOrigin="0.532,1.549"                                            >
+            <ComboBoxItem Content="V94RC97" IsSelected="True"/>
+            <ComboBoxItem Content="T12CD36"/>
+            <ComboBoxItem Content="V94TE8D"/>
+            <ComboBoxItem Content="V94C665"/>
+            <ComboBoxItem Content="T12F380"/>
+            <ComboBoxItem Content="D02YK38"/>
+            <ComboBoxItem Content="D01T9R2"/>
+        </ComboBox>
+
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="36,253,0,0" TextWrapping="Wrap" Text="Please select your location." VerticalAlignment="Top" Height="32" Width="314" FontSize="21"/>
+        <TextBox x:Name="locationText" HorizontalAlignment="Left" Height="39" Margin="29,285,0,0" VerticalAlignment="Top" Width="314"/>
+
+        <TextBlock x:ConnectionId='2' x:Name="textBlock2" HorizontalAlignment="Left" Margin="29,324,0,0" TextWrapping="Wrap" Text="Would you like to rate this Coffee Locatin/Store?" VerticalAlignment="Top" Height="52" Width="314"                                                FontSize="21"/>
+
+
+        <!--this is the code for the stars-->
+        <!--<StackPanel>
+
+            <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="400" Height="45" Clip="F1 M 0,0L 762.32,0L 762.32,157.241L 0,157.241L 0,0">
+                <Path Width="360" Height="50" Canvas.Left="20" Canvas.Top="3.41833e-005" Stretch="Fill" StrokeThickness="0.32" StrokeLineJoin="Round" Stroke="#FF000000" Data="M 124.007,156.714L 76.7085,122.596L 29.6486,157.081L 45.7467,99.0143L 0.160009,62.3872L 57.408,60.6183L 76.2938,3.49658L 95.5769,60.47L 152.836,61.7939L 107.505,98.7744L 124.007,156.714 Z M 276.561,155.32L 229.263,121.201L 182.203,155.686L 198.301,97.6196L 152.714,60.9924L 209.962,59.2235L 228.848,2.10181L 248.131,59.0752L 305.39,60.3992L 260.059,97.3796L 276.561,155.32 Z M 430.692,155.65L 383.394,121.532L 336.334,156.017L 352.432,97.9505L 306.845,61.3234L 364.093,59.5544L 382.979,2.4328L 402.262,59.4061L 459.521,60.7301L 414.19,97.7105L 430.692,155.65 Z M 581.627,155.074L 534.328,120.956L 487.269,155.44L 503.367,97.3737L 457.78,60.7466L 515.028,58.9777L 533.914,1.85596L 553.197,58.8293L 610.456,60.1533L 565.125,97.1338L 581.627,155.074 Z M 733.332,153.378L 686.033,119.26L 638.973,153.744L 655.071,95.6778L 609.484,59.0507L 666.732,57.2817L 685.618,0.160034L 704.901,57.1334L 762.16,58.4573L 716.83,95.4378L 733.332,153.378 Z ">
+                    <Path.Fill>
+                        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+
+                            <GradientStop Color="Gold" Offset="{Binding FallbackValue, ElementName=RatingSlider}"/>
+                            <GradientStop Color="#FFFFFFFF" Offset="0.1"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                </Path>
+            </Canvas>
+            <Slider x:Name= "RatingSlider" Value="0.05" Minimum="0" Maximum="1" StepFrequency="0.05" Margin="25,0,26,0"/>
+
+        </StackPanel>-->
+
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Name="Layer_1_0" Width="300" Height="150" Canvas.Left="0" Canvas.Top="0">
+            <Path Width="243.034" Height="55.54" Canvas.Left="10" Canvas.Top="127.626" Stretch="Fill" StrokeLineJoin="Round" Stroke="#FF000000" Data="M 44.3028,74L 37.4107,55.6718L 52.0676,42.6873L 32.5067,43.5784L 24.687,25.6264L 19.4898,44.5053L 9.7121e-006,46.3948L 16.3489,57.1715L 12.1232,76.2913L 27.4246,64.0728L 44.3028,74 Z M 92.269,74.8744L 85.3769,56.5463L 100.034,43.5618L 80.4729,44.4529L 72.6532,26.5009L 67.456,45.3798L 47.9662,47.2693L 64.3151,58.046L 60.0894,77.1658L 75.3908,64.9473L 92.269,74.8744 Z M 140.936,75.5411L 134.044,57.213L 148.7,44.2285L 129.14,45.1196L 121.32,27.1676L 116.123,46.0464L 96.6329,47.936L 112.982,58.7127L 108.756,77.8325L 124.057,65.6139L 140.936,75.5411 Z M 187.936,76.8745L 181.044,58.5463L 195.7,45.5618L 176.14,46.4529L 168.32,28.5009L 163.123,47.3798L 143.633,49.2693L 159.982,60.046L 155.756,79.1658L 171.057,66.9473L 187.936,76.8745 Z M 234.269,77.8744L 227.377,59.5463L 242.034,46.5618L 222.473,47.4529L 214.653,29.5009L 209.456,48.3798L 189.966,50.2693L 206.315,61.046L 202.089,80.1658L 217.391,67.9473L 234.269,77.8744 Z " UseLayoutRounding="False">
+                <Path.Fill>
+                    <LinearGradientBrush StartPoint="-0.00206578,0.5" EndPoint="1.00207,0.5">
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStop Color="red" Offset="{Binding Value, ElementName=slider}"/>
+                            <GradientStop Color="White" Offset="{Binding Value, ElementName=slider}"/>
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Slider x:ConnectionId='5' x:Name="slider" Canvas.Left="10" Canvas.Top="174" Width="286"                                    Maximum="5" LargeChange="1"  SmallChange="1" StepFrequency="1" Value="2"/>
+        </Canvas>
+
+
+        <TextBox x:Name="commentText" Canvas.Left="21" Margin="29,490,70,0" TextWrapping="Wrap" Text="Comment here" Canvas.Top="511" Height="97" Width="301" FontSize="11" RenderTransformOrigin="0.517,0.832"/>
+        <ListView x:Name="listView" Height="100" Canvas.Left="127" Canvas.Top="422" Width="100" Margin="158,276,142,264"/>
+
+        <Button x:ConnectionId='3' x:Name="addReview" Content="Add New Review" Canvas.Left="21" Canvas.Top="615" Width="301"                         Style="{StaticResource MyButtonStyle}"  Margin="29,582,0,1"/>
+        <!--use the slider to change the stars i am not sure if i binded the stars and the slider properly and I am unable to test it myself-->
+
+
+        <TextBlock x:ConnectionId='4' x:Name="textBlock3" HorizontalAlignment="Left" Margin="29,465,0,0" TextWrapping="Wrap" Text="Comment about this Store" VerticalAlignment="Top"                                                FontSize="21" Width="314" />
+
+
+
+
+    </Grid>
+
+
+</Page>
+
